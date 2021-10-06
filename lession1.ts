@@ -10,7 +10,9 @@ log(message);
 
 // Create a function that iterate through a fix number of elements and produces a result
 function  doSomething(){
-    for(var i = 0; i< 5; i++){
+    let i: number;
+
+    for(i=0; i< 5; i++){
         console.log(i);
     }
 
