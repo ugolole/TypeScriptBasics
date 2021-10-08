@@ -31,3 +31,13 @@ console.log(bool);
 console.log(string);
 console.log(otherTypeArray);
 console.log(backGroundColor)
+
+// Working with type assertions
+let message : string;
+
+// initialise the message variable.
+message = "A B C";
+
+// return true if message ends with c
+let endsWith: boolean = message.endsWith('c');
+
