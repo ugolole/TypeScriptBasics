@@ -33,11 +33,11 @@ console.log(otherTypeArray);
 console.log(backGroundColor)
 
 // Working with type assertions
-let message : string;
+let otherMessages : string;
 
 // initialise the message variable.
-message = "A B C";
+otherMessages = "A B C";
 
 // return true if message ends with c
-let endsWith: boolean = message.endsWith('c');
+let endsWith: boolean = otherMessages.endsWith('c');
 
