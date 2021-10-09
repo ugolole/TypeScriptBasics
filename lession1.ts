@@ -1,12 +1,13 @@
 
+var newMessage :string = "hello world";
+
 // A typescript function that when called logs the message to the console.
 function log(message){
     console.log(message);
 }
 
-var message = "hello world";
 
-log(message);
+log(newMessage);
 
 // Create a function that iterate through a fix number of elements and produces a result
 function  doSomething(){
