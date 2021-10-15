@@ -41,3 +41,6 @@ otherMessages = "A B C";
 // return true if message ends with c
 let endsWith: boolean = otherMessages.endsWith('c');
 
+// log the result of endsWith.
+console.log(endsWith);
+
