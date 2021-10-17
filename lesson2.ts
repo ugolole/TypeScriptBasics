@@ -24,6 +24,7 @@ enum Colors{
 
 let backGroundColor : number = Colors.Red;
 
+console.log('the colors are ',Colors.Blue, Colors.Green);
 console.log(count);
 console.log(array);
 console.log(otherArray);

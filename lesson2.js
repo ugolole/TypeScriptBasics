@@ -18,6 +18,7 @@ var Colors;
     Colors[Colors["Blue"] = 2] = "Blue";
 })(Colors || (Colors = {}));
 let backGroundColor = Colors.Red;
+console.log('the colors are ', Colors.Blue, Colors.Green);
 console.log(count);
 console.log(array);
 console.log(otherArray);

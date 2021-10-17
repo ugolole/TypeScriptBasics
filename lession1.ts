@@ -1,5 +1,5 @@
 
-var newMessage :string = "hello world";
+const newMessage :string = "hello world";
 
 // A typescript function that when called logs the message to the console.
 function log(message){
