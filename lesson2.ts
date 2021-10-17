@@ -24,6 +24,7 @@ enum Colors{
 
 let backGroundColor : number = Colors.Red;
 
+console.log('the colors are ',Colors.Blue, Colors.Green);
 console.log(count);
 console.log(array);
 console.log(otherArray);
@@ -40,4 +41,7 @@ otherMessages = "A B C";
 
 // return true if message ends with c
 let endsWith: boolean = otherMessages.endsWith('c');
+
+// log the result of endsWith.
+console.log(endsWith);
 
