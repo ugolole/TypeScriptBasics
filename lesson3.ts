@@ -1,4 +1,4 @@
-﻿// Declaring functions in js
+﻿// In this lesson we look at different ways of creating methods also known as functions.
 let jsFunc = function (message){
     console.log(message);
 }
