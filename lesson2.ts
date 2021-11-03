@@ -1,4 +1,4 @@
-﻿
+﻿// In this lesson we look at different types used in typescript.
 // create a variable with type number
 let count: number = 12;
 

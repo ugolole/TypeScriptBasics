@@ -1,4 +1,6 @@
-
+// Introduction on how to run a typeScript file.
+// In this lesson we learn that typescript adds additional syntax to javascript and 
+// adds support for tighter integration with the editor of choice.
 const newMessage :string = "hello world";
 
 // A typescript function that when called logs the message to the console.
