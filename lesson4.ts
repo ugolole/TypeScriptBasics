@@ -10,9 +10,11 @@ class Point {
     // methods.
     draw(){
         // .. logic used to draw a point.
+        console.log('x: ' + this.x, + ' y: ' + this.y);
     }
     
     getDistance(){
         // .. logic used to get the distance of a point.
     }
 }
+
