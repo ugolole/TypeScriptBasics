@@ -4,7 +4,7 @@
     y: number;
     
     // create a constructor and initialising it's values
-    constructor(x : number, y: number) {
+    constructor(x? : number, y?: number) {
         this.x = x;
         this.y = y;
     }
@@ -19,6 +19,6 @@
     }
 }
 
-let point : OtherPointClass = new OtherPointClass(2, 5);
+let point : OtherPointClass = new OtherPointClass();
 
 point.Draw();
