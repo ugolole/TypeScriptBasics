@@ -1,14 +1,15 @@
 class OtherPointClass {
+    // create a constructor and initialising it's values
     constructor(x, y) {
-        x = x;
-        y = y;
+        this.x = x;
+        this.y = y;
     }
     Draw() {
-        console.log("x: ", this.x, "y: ", this.y);
+        console.log("draw x: ", this.x, "y: ", this.y);
     }
     getDistance() {
-        console.log("x: ", this.x, "y: ", this.y);
+        console.log("get distance  x: ", this.x, "y: ", this.y);
     }
 }
-let point = new OtherPointClass(2, 5);
+let point = new OtherPointClass();
 point.Draw();
